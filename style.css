@@ -38,14 +38,14 @@
 body {
   padding: 10px 10px 0px 10px;
   background-color: var(--color0);
-  overflow:hidden;
+  
 }
 main {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 7fr 1fr;
   gap: 10px;
-  height:100vh;
+  height:98vh;
 }
 
 .icon {
@@ -303,6 +303,15 @@ main {
   order: 3;
   width: 25px;
   height: 25px;
+}
+[name=Previous] {
+  order: 1;
+}
+[name=Play] {
+ order: 2;
+}
+[name=Next] {
+  order: 3;
 }
 .music-slider {
   display: flex;
